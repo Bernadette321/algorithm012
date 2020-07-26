@@ -36,7 +36,8 @@ template:
 template: 
 1.terminator, 
 2.process(split your big problem) 看如何把这个大问题分成子问题
-3.drill down(调用函数去做subproblems), merge(subresult) 4.reverse states
+3.drill down(调用函数去做subproblems), merge(subresult) 
+4.reverse states
 ```
 
 与泛型递归的不同点: 这些子结果要再进行一次**组合**
